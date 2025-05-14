@@ -285,7 +285,7 @@ const Filter = () => {
             type="text"
             placeholder="Search Products"
           />
-          <FaSearch className="absolute right-2.5 md:right-5 top-1/2 -translate-y-1/2" />
+          <FaSearch className="absolute right-2.5 md:right-5 top-1/2 -translate-y-1/2 cursor-pointer" />
         </div>
         <div className="account hidden md:flex items-center gap-x-10">
           <UserIcon />

@@ -6,7 +6,7 @@ export default {
   ],
   theme: {
     fontFamily: {
-      'head': ['DM Sans', 'sans-serif']
+      'head': ['DM Sans', 'sans-serif'],
     },
     extend: {
       colors: {

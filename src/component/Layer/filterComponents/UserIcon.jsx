@@ -10,7 +10,7 @@ const UserIcon = () => {
     <>
       <div
         onClick={() => setPop(!pop)}
-        className="left flex items-center gap-x-2.5 relative"
+        className="left flex items-center gap-x-2.5 relative cursor-pointer"
       >
         <FaUser />
         <IoMdArrowDropdown />

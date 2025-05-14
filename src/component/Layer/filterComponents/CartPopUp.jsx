@@ -7,7 +7,7 @@ const CartPopUp = () => {
   let [pop, setPop] = useState(false);
   return (
     <div onClick={() => setPop(!pop)} className="right relative">
-      <FaCartShopping />
+      <FaCartShopping  className="cursor-pointer"/>
       {pop && (
         <div className="main z-50 w-80 absolute top- right-0">
           <Cart image="" title="Black Smart Watch" price="$44.00" />

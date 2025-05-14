@@ -13,7 +13,7 @@ const Cart =({image,title,price})=>{
                     <p className="font-head text-head text-sm font-bold">{price}</p>
                 </div>
                 <div className="icon">
-                <IoIosClose className="w-6 h-6 font-black" />
+                <IoIosClose className="w-6 h-6 font-black cursor-pointer" />
                 </div>
             </div>
         </div>
