@@ -16,7 +16,7 @@ const Filter = () => {
 
   return (
     <div className="bg-[#F5F5F3] py-3 md:py-6">
-      <Container className="flex gap-x-2 md:gap-x-0 md:justify-between items-center px-3 md:px-0 relative">
+      <Container className="flex md:justify-between items-center relative">
         <div
           onClick={() => setShow(!show)}
           className="category flex items-center gap-x-2.5"

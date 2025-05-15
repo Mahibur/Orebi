@@ -25,7 +25,7 @@ const Navbar = () => {
   }, []);
   return (
     <nav className=" border-b border-b-solid border-b-[#979797]">
-      <Container className="px-3 md:px-0 relative py-4 md:py-8 flex gap-x-5 justify-end items-center md:justify-center">
+      <Container className="relative py-4 md:py-8 flex gap-x-5 justify-end items-center md:justify-center">
         <Image
           className="absolute top-1/2 left-3 md:left-0 -translate-y-1/2"
           src={logo}
